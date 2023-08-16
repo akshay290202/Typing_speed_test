@@ -1,0 +1,137 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+html{
+    font-size: 100%;
+    background-color: #6803ab;
+}
+
+.mainbody{
+    margin-top: 100px;
+}
+
+.typingarea{
+    text-align: center;
+}
+
+#textarea{
+    background-color: #e4e4e421;
+    color: #ffffff;
+    border: .1rem solid #A084DC;
+    border-radius: 1rem;
+    max-width: 50rem;
+    width: 50rem;
+    height: 20rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+#btn{
+    font-family: 'Poppins', 'sans-serif';
+    display: inline-block;
+    padding: 1rem 2.4rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #e7007e  ;
+    color: #fff;
+    font-size: 1.8rem;
+    margin-top: 1.6rem;
+}
+
+.mainbody .typingarea #btn:active{
+    transform: scale(0.90);
+}
+
+.mainbody .typingarea #btn:hover{
+    color: #272727;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    color: #ff008b;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+#wordstobetyped{
+    color: white;
+    font-size: 1.2rem;
+    padding-right: 22.5%;
+    padding-left: 22.5%;
+    display: flex;
+    text-align: center;
+    margin: 1.5rem 0;
+    letter-spacing: .02rem;
+}
+
+#score{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 1.5rem 0;
+    letter-spacing: .02rem;
+}
+
+footer{
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+footer li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+footer ul{
+    margin-right: 88px;
+}
+
+footer .footericons{
+    padding-left: 69px;
+}
+footer .footericons a{
+    background-color: #ff2963;
+    color: #fff;
+    padding: 15px;
+    border-radius: 100px;
+    display: flex;
+    font-size: 25px;
+    transition: all 0.2s ease;
+}
+
+footer .footericons a:active{
+    transform: scale(0.90);
+}
+
+footer .footericons a:hover{
+    color: #272727;
+}
+
+footer .footerend{
+    background-color: #272727;
+    color: white;
+    padding: 0.25px ;
+    margin-top: 1px;
+}
+
+footer .footerend p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    font-size:25px;
+    font-family: 'Staatliches', cursive;
+}
+
+
+
