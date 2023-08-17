@@ -40,6 +40,7 @@ html{
     color: #fff;
     font-size: 1.8rem;
     margin-top: 1.6rem;
+    transition: all 0.2s ease;
 }
 
 .mainbody .typingarea #btn:active{
@@ -131,6 +132,405 @@ footer .footerend p{
     margin-right: 8px;
     font-size:25px;
     font-family: 'Staatliches', cursive;
+}
+
+
+
+/* Responsive design */
+@media screen and (max-width:320px){
+
+    #textarea{
+        width: 60%;
+        height: 40%;
+        font-size: 0.7rem;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    #btn{
+        font-size: 1rem;
+        transition: all 0.2s ease;
+    }
+
+    .mainbody .typingarea #btn:active{
+        transform: scale(0.90);
+    }
+    
+    .mainbody .typingarea #btn:hover{
+        color: #272727;
+    }
+    
+
+    #wordstobetyped{
+        font-size: 0.7rem;
+        margin: 1.5rem 0;
+        letter-spacing: .01rem;
+    }
+
+    #score{
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 0.7rem;
+        letter-spacing: .01rem;
+    }
+    
+
+    footer{
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+    
+    footer li{
+        margin: 4px;
+        padding-left: 20px;
+    }
+    
+    footer ul{
+        margin-right: 0px;
+    }
+    
+    footer .footericons{
+        padding-left: 0;
+        padding-right: 17px;
+    }
+    footer .footericons a{
+        padding: 8px;
+        border-radius: 100px;
+        font-size: 25px;
+    }
+
+    
+    footer .footerend{
+        padding: 0.25px ;
+        margin-top: 1px;
+    }
+    
+    footer .footerend p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: auto;
+        font-size:20px;
+    }
+
+
+}
+
+@media screen and (max-width:375px) and (min-width:321px){
+    #textarea{
+        width: 60%;
+        height: 40%;
+        font-size: 0.7rem;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    #btn{
+        font-size: 1rem;
+        transition: all 0.2s ease;
+    }
+
+    .mainbody .typingarea #btn:active{
+        transform: scale(0.90);
+    }
+    
+    .mainbody .typingarea #btn:hover{
+        color: #272727;
+    }
+    
+
+    #wordstobetyped{
+        font-size: 0.7rem;
+        margin: 1.5rem 0;
+        letter-spacing: .01rem;
+    }
+
+    #score{
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 0.7rem;
+        letter-spacing: .01rem;
+    }
+    
+
+    footer{
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+    
+    footer li{
+        margin: 4px;
+        padding-left: 20px;
+    }
+    
+    footer ul{
+        margin-right: 0px;
+    }
+    
+    footer .footericons{
+        padding-left: 0;
+        padding-right: 17px;
+    }
+    footer .footericons a{
+        padding: 8px;
+        border-radius: 100px;
+        font-size: 25px;
+    }
+
+    
+    footer .footerend{
+        padding: 0.25px ;
+        margin-top: 1px;
+    }
+    
+    footer .footerend p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: auto;
+        font-size:20px;
+    }
+}
+
+
+@media screen and (max-width:426px) and (min-width:375px){
+    #textarea{
+        width: 60%;
+        height: 40%;
+        font-size: 0.7rem;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    #btn{
+        font-size: 1rem;
+        transition: all 0.2s ease;
+    }
+
+    .mainbody .typingarea #btn:active{
+        transform: scale(0.90);
+    }
+    
+    .mainbody .typingarea #btn:hover{
+        color: #272727;
+    }
+    
+
+    #wordstobetyped{
+        font-size: 0.7rem;
+        margin: 1.5rem 0;
+        letter-spacing: .01rem;
+    }
+
+    #score{
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 0.7rem;
+        letter-spacing: .01rem;
+    }
+    
+
+    footer{
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+    
+    footer li{
+        margin: 4px;
+        padding-left: 20px;
+    }
+    
+    footer ul{
+        margin-right: 0px;
+    }
+    
+    footer .footericons{
+        padding-left: 0;
+        padding-right: 17px;
+    }
+    footer .footericons a{
+        padding: 8px;
+        border-radius: 100px;
+        font-size: 25px;
+    }
+
+    
+    footer .footerend{
+        padding: 0.25px ;
+        margin-top: 1px;
+    }
+    
+    footer .footerend p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: auto;
+        font-size:20px;
+    }
+}
+
+
+
+@media screen and (max-width:668px) and (min-width:426px){
+    #textarea{
+        width: 60%;
+        height: 40%;
+        font-size: 0.7rem;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    #btn{
+        font-size: 1rem;
+        transition: all 0.2s ease;
+    }
+
+    .mainbody .typingarea #btn:active{
+        transform: scale(0.90);
+    }
+    
+    .mainbody .typingarea #btn:hover{
+        color: #272727;
+    }
+    
+
+    #wordstobetyped{
+        font-size: 0.7rem;
+        margin: 1.5rem 0;
+        letter-spacing: .01rem;
+    }
+
+    #score{
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 0.7rem;
+        letter-spacing: .01rem;
+    }
+    
+
+    footer{
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+    
+    footer li{
+        margin: 4px;
+        padding-left: 20px;
+    }
+    
+    footer ul{
+        margin-right: 0px;
+    }
+    
+    footer .footericons{
+        padding-left: 0;
+        padding-right: 17px;
+    }
+    footer .footericons a{
+        padding: 8px;
+        border-radius: 100px;
+        font-size: 25px;
+    }
+
+    
+    footer .footerend{
+        padding: 0.25px ;
+        margin-top: 1px;
+    }
+    
+    footer .footerend p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: auto;
+        font-size:20px;
+    }
+}
+
+@media screen and (max-width:900px) and (min-width:669px){
+    #textarea{
+        width: 60%;
+        height: 40%;
+        font-size: 0.7rem;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    #btn{
+        font-size: 1rem;
+        transition: all 0.2s ease;
+    }
+
+    .mainbody .typingarea #btn:active{
+        transform: scale(0.90);
+    }
+    
+    .mainbody .typingarea #btn:hover{
+        color: #272727;
+    }
+    
+
+    #wordstobetyped{
+        font-size: 0.7rem;
+        margin: 1.5rem 0;
+        letter-spacing: .01rem;
+    }
+
+    #score{
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 0.7rem;
+        letter-spacing: .01rem;
+    }
+    
+
+    footer{
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+    
+    footer li{
+        margin: 4px;
+        padding-left: 20px;
+    }
+    
+    footer ul{
+        margin-right: 0px;
+    }
+    
+    footer .footericons{
+        padding-left: 0;
+        padding-right: 17px;
+    }
+    footer .footericons a{
+        padding: 8px;
+        border-radius: 100px;
+        font-size: 25px;
+    }
+
+    
+    footer .footerend{
+        padding: 0.25px ;
+        margin-top: 1px;
+    }
+    
+    footer .footerend p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: auto;
+        font-size:20px;
+    }
 }
 
 
